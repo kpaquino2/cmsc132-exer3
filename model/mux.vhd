@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
+-- 8 to 1 multiplexer
 entity MUX is
     port (
         s0, s1, s2, a0, a1, a2, a3, a4, a5, a6, a7 : in std_logic;

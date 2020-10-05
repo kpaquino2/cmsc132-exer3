@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
+-- NOT operaton
 entity NOT_OP is
     port (
         s0, i0, i1 : in std_logic;

@@ -1,22 +1,57 @@
 v 4
-file . "inc.vhd" "2e298d5a66d53e5f71894bafe632a9b5ce7ef311" "20201005090026.708":
-  entity inc at 1( 0) + 0 on 429;
-  architecture arch of inc at 12( 200) + 0 on 430;
-file . "mux.vhd" "1f0ecc1c110fcb000045b889a59d59439a6b8e28" "20201005090026.701":
-  entity mux at 1( 0) + 0 on 427;
-  architecture arch of mux at 12( 212) + 0 on 428;
-file . "alu.vhd" "cfea9861a51b9d04f006a344f4c8aa8dda21114a" "20201005090026.724":
-  entity alu at 1( 0) + 0 on 433;
-  architecture struc of alu at 12( 208) + 0 on 434;
-file . "not.vhd" "d91e0ea5ff9fde8e64c8209acfecf221d4c5eb7a" "20201005090026.677":
-  entity not_op at 1( 0) + 0 on 423;
-  architecture arch of not_op at 12( 197) + 0 on 424;
-file . "alu_tb.vhd" "f7d55322f57c2af7259e7ec53cc525d26493fd92" "20201005090026.732":
-  entity alu_tb at 1( 0) + 0 on 435;
-  architecture sim of alu_tb at 8( 107) + 0 on 436;
-file . "xor.vhd" "b5ab51a543d2279ca89a5d57f412ddcc5644788f" "20201005090026.693":
-  entity xor_op at 1( 0) + 0 on 425;
-  architecture arch of xor_op at 12( 204) + 0 on 426;
-file . "sub2.vhd" "e7d7c5efad74f50a9bbd64773c55c33c1614a77f" "20201005090026.715":
-  entity sub_2 at 1( 0) + 0 on 431;
-  architecture arch of sub_2 at 12( 208) + 0 on 432;
+file . "sub_2_tb.vhd" "425a63d2c4413628e6ca3bba4e255df18bbdfc03" "20201005112938.793":
+  entity sub_2_tb at 1( 0) + 0 on 1895;
+  architecture sim of sub_2_tb at 9( 145) + 0 on 1896;
+file . "not_tb.vhd" "dd3d05571bcd6f70aed46b906915aa42baa7fbca" "20201005112938.768":
+  entity not_tb at 1( 0) + 0 on 1889;
+  architecture sim of not_tb at 9( 138) + 0 on 1890;
+file . "add.vhd" "ad5e5e7086b5d8b4ec9fafd427c2e1afbf96ddeb" "20201005112938.665":
+  entity add at 1( 0) + 0 on 1867;
+  architecture arch of add at 12( 182) + 0 on 1868;
+file . "and.vhd" "bb4d899a9c709574236df1cf4a5631cb2030e2e1" "20201005112938.646":
+  entity and_op at 1( 0) + 0 on 1863;
+  architecture arch of and_op at 12( 191) + 0 on 1864;
+file . "xor.vhd" "545cbd7397e694b4e1fb955cdf905301ba44b5ad" "20201005112938.702":
+  entity xor_op at 1( 0) + 0 on 1873;
+  architecture arch of xor_op at 13( 221) + 0 on 1874;
+file . "alu_tb.vhd" "f7d55322f57c2af7259e7ec53cc525d26493fd92" "20201005094315.426":
+  entity alu_tb at 1( 0) + 0 on 475;
+file . "not.vhd" "3f1df05bb1a35445d5fc1e0311d74b53c71b1b1e" "20201005112938.687":
+  entity not_op at 1( 0) + 0 on 1871;
+  architecture arch of not_op at 13( 213) + 0 on 1872;
+file . "alu.vhd" "7ddb8fc959964ff139874fe8bb1cfd5e31f71a4a" "20201005112938.735":
+  entity alu at 1( 0) + 0 on 1881;
+  architecture struc of alu at 14( 252) + 0 on 1882;
+file . "mux.vhd" "f66a5803f658675ccbf73ebc72117bd80bd1a33d" "20201005112938.709":
+  entity mux at 1( 0) + 0 on 1875;
+  architecture arch of mux at 13( 234) + 0 on 1876;
+file . "inc.vhd" "d79dfc7b0fa96f483138929054252c50ea43568d" "20201005112938.717":
+  entity inc at 1( 0) + 0 on 1877;
+  architecture arch of inc at 13( 217) + 0 on 1878;
+file . "or.vhd" "cdf11a287a6833afca5f64456811367328d1d1b5" "20201005112938.654":
+  entity or_op at 1( 0) + 0 on 1865;
+  architecture arch of or_op at 12( 188) + 0 on 1866;
+file . "sub_1.vhd" "12405c5913c373b44870542da804a4581a8375aa" "20201005112938.676":
+  entity sub_1 at 1( 0) + 0 on 1869;
+  architecture arch of sub_1 at 12( 190) + 0 on 1870;
+file . "sub_2.vhd" "ad4305267318bd1eaace250508ee2016c91d85ce" "20201005112938.724":
+  entity sub_2 at 1( 0) + 0 on 1879;
+  architecture arch of sub_2 at 13( 229) + 0 on 1880;
+file . "or_tb.vhd" "10cf23db25cac43883124e64fa41f87527d0222d" "20201005112938.751":
+  entity or_tb at 1( 0) + 0 on 1885;
+  architecture sim of or_tb at 9( 135) + 0 on 1886;
+file . "xor_tb.vhd" "192154477fd0c25ed8ad698de85daded08ec4ab7" "20201005112938.759":
+  entity xor_tb at 1( 0) + 0 on 1887;
+  architecture sim of xor_tb at 9( 138) + 0 on 1888;
+file . "add_tb.vhd" "35c444d7f23900a3cb7da062a402e5f3e69f9951" "20201005112938.776":
+  entity add_tb at 1( 0) + 0 on 1891;
+  architecture sim of add_tb at 9( 138) + 0 on 1892;
+file . "sub_1_tb.vhd" "52b356d5899f89355edd5e1e4fca2ca82690e394" "20201005112938.785":
+  entity sub_1_tb at 1( 0) + 0 on 1893;
+  architecture sim of sub_1_tb at 9( 145) + 0 on 1894;
+file . "inc_tb.vhd" "753bfa30cf2556056d9f9b699c2047055517eaf4" "20201005112938.804":
+  entity inc_tb at 1( 0) + 0 on 1897;
+  architecture sim of inc_tb at 9( 138) + 0 on 1898;
+file . "and_tb.vhd" "18e7e2bdb6ff4ce90109c88d0dcc225e27bddd40" "20201005112938.743":
+  entity and_tb at 1( 0) + 0 on 1883;
+  architecture sim of and_tb at 9( 138) + 0 on 1884;

@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
+-- SUB 2's operation
 entity SUB_2 is
     port (
         s0, s1, i0, i1, j0, j1 : in std_logic;

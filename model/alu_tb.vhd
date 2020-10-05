@@ -2,6 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
+-- test bench for all operations
 entity alu_tb is
 end entity alu_tb;
 
