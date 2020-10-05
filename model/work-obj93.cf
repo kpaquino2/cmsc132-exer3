@@ -1,0 +1,22 @@
+v 4
+file . "inc.vhd" "2e298d5a66d53e5f71894bafe632a9b5ce7ef311" "20201005090026.708":
+  entity inc at 1( 0) + 0 on 429;
+  architecture arch of inc at 12( 200) + 0 on 430;
+file . "mux.vhd" "1f0ecc1c110fcb000045b889a59d59439a6b8e28" "20201005090026.701":
+  entity mux at 1( 0) + 0 on 427;
+  architecture arch of mux at 12( 212) + 0 on 428;
+file . "alu.vhd" "cfea9861a51b9d04f006a344f4c8aa8dda21114a" "20201005090026.724":
+  entity alu at 1( 0) + 0 on 433;
+  architecture struc of alu at 12( 208) + 0 on 434;
+file . "not.vhd" "d91e0ea5ff9fde8e64c8209acfecf221d4c5eb7a" "20201005090026.677":
+  entity not_op at 1( 0) + 0 on 423;
+  architecture arch of not_op at 12( 197) + 0 on 424;
+file . "alu_tb.vhd" "f7d55322f57c2af7259e7ec53cc525d26493fd92" "20201005090026.732":
+  entity alu_tb at 1( 0) + 0 on 435;
+  architecture sim of alu_tb at 8( 107) + 0 on 436;
+file . "xor.vhd" "b5ab51a543d2279ca89a5d57f412ddcc5644788f" "20201005090026.693":
+  entity xor_op at 1( 0) + 0 on 425;
+  architecture arch of xor_op at 12( 204) + 0 on 426;
+file . "sub2.vhd" "e7d7c5efad74f50a9bbd64773c55c33c1614a77f" "20201005090026.715":
+  entity sub_2 at 1( 0) + 0 on 431;
+  architecture arch of sub_2 at 12( 208) + 0 on 432;

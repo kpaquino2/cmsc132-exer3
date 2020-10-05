@@ -11,10 +11,10 @@ begin
     uut : entity work.alu(struc)
         port map(tS0, tS1, tS2, tI0, tI1, tJ0, tJ1, tK0, tK1, tCout);
     tester : process is
-        variable test_in : unsigned(6 downto 0)
+        variable test_in : unsigned(6 downto 0);
     begin
         test_in := B"0000000";
-        for count in 0 to 127
+        for count in 0 to 127 loop
             tS0 <= test_in(6);
             tS1 <= test_in(5);
             tS2 <= test_in(4);
@@ -25,7 +25,7 @@ begin
             wait for 10 ns;
 
             test_in := test_in + 1;
-        end loop
+        end loop;
 
         wait;
     end process;
